@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(244 242 238);
+}
+.main-nav {
+  background: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.main-nav ul li {
+  color: grey;
+}
+.main-nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#profile-nav {
+  width: 22px;
+  height: 10%;
+  border-radius: 100%;
+}
+.main-nav ul input {
+  width: 100%;
+  line-height: 1.75;
+  font-weight: 400;
+  font-size: 14px;
+  height: 34px;
+  /*border-color: rgb(140, 140, 140, 0.2);*/
+  background-color: rgb(140, 140, 140, 0.2);
+  background-color: rgb(237 243 248);
+  border-radius: 5px;
+  color: grey;
+  padding: 0 40px;
+  border: none;
+}
+.nav-others li {
+  padding: 0 15px;
+}
+.aside-1 {
+  width: 225px;
+  height: 340px;
+
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 50% 20% 20% 10%;
+}
+.aside-2 {
+  width: 225px;
+  height: 287px;
+
+  margin-top: 20px;
+  border-radius: 10px;
+}
+/*.share-box-sm | */
+.share-box-sm {
+  width: 555px;
+  height: 116px;
+
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fff;
+}
+.down-sm {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+.down-sm > p {
+  margin: 0 25px;
+  font-size: 25px;
+}
+.down-sm p i {
+  margin: 0 10px;
+}
+.up-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.up-sm input {
+  width: 400px;
+  height: 50px;
+  margin-left: 30px;
+  background: #fff;
+  border: 1px solid rgb(178 178 178);
+  border-radius: 20px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+.up-sm img {
+  width: 60px;
+}
+#i1 {
+  color: #378fe9;
+}
+#i2 {
+  color: #c37d16;
+}
+#i3 {
+  color: #e06847;
+}
+#p1,
+#p2,
+#p3 {
+  color: rgb(178 178 178);
+}
+
+/*.share-box-lg | */
+.share-box-lg {
+  width: 555px;
+  height: 925px;
+
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.aside-3 {
+  width: 300px;
+  height: 375px;
+
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 40px 90px;
+}
+/*   ASIDE-1      */
+.aside-1 > div {
+  border-bottom: 1px solid grey;
+}
+.aside-1-20 p span {
+  color: #0a66c2;
+}
+.aside-1-10 {
+  justify-self: flex-start;
+}
+#p4 {
+  margin: 7px;
+}
+#p4 i {
+  margin-right: 7px;
+}
+.aside-1-50-1 {
+  height: 33%;
+  width: 100%;
+  background-color: rgb(160 180 183);
+  border-radius: 10px 10px 0 0;
+  z-index: -1;
+}
+.aside-1-50-2 {
+  position: relative;
+  top: -50px;
+  left: 0;
+}
+
+/*   ASIDE-2      */
+.aside-1,
+.aside-2,
+.share-box-lg,
+.aside-3 {
+  background: #fff;
+}
+.aside-2 h3 {
+  color: #666666;
+  font-size: 15px;
+  margin-top: 15px;
+  padding-left: 10px;
+  text-align: left;
+}
+.more {
+  padding: 20px;
+  color: grey;
+}
+
+/*    ASIDE-3     */
+.aside-3-2 {
+  margin: 1rem;
+  display: flex;
+}
+.aside-3-2 img {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+}
+.aside-3-2 .sag .btn {
+  padding: 7px 12px;
+  border-radius: 20px;
+  background: #fff;
+  border: 3px solid grey;
+  color: grey;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+.aside-3-2 .sag h1 {
+  font-size: 17px;
+  font-weight: 600;
+  float: left;
+  margin-left: 1rem;
+}
+.aside-3-2 .sag p {
+  font-weight: lighter;
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+  font-size: 14px;
+}
+/* Content */
+.head {
+  height: 9%;
+  display: flex;
+  justify-content: space-between;
+}
+.bighead {
+  display: flex;
+  margin: 15px;
+}
+.bighead .head2 {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+.bighead .head2 h1 {
+  float: left;
+}
+.bighead .head2 p {
+  color: grey;
+}
+.head .head3 {
+  margin: 15px;
+  font-size: 2rem;
+  color: grey;
+}
+
+.article {
+  height: 8%;
+}
+.article p {
+  text-align: left;
+  margin: 0.4rem 1rem;
+}
+.image {
+  height: 67%;
+}
+.tags {
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid grey;
+}
+.tags > div {
+  margin: 12px;
+}
+
+.likes {
+  height: 11%;
+}
+.likes ul {
+  list-style-type: none;
+}
+.likes ul li {
+  display: inline-block;
+  padding: 1.5rem 1rem;
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+.likes ul li a {
+  text-decoration: none;
+  color: grey;
+}
+.likes ul li:hover {
+  background: lightgrey;
+  border-radius: 1rem;
+}
+.article a {
+  color: grey;
+  text-decoration: none;
+}
+.article a:hover {
+  text-decoration: underline;
+}
